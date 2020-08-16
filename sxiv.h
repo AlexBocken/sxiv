@@ -409,6 +409,7 @@ struct win {
 
 	XftColor bg;
 	XftColor fg;
+	XftColor txt;
 
 	int x;
 	int y;
@@ -445,4 +446,3 @@ void win_set_cursor(win_t*, cursor_t);
 void win_cursor_pos(win_t*, int*, int*);
 
 #endif /* SXIV_H */
-
